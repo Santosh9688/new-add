@@ -1,0 +1,120 @@
+*{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.backg{
+    padding: 25px;
+    text-align: center !important;
+    font-size: 20px;
+}
+h2.double:before { 
+    position: absolute;
+    background: #c72027 !important;
+    height: 3px;
+    content: '';
+    width: 3%;
+    bottom: 50px;
+    top: 53px;
+    left: 47%;
+   }
+   
+   h2.double:after {
+    content: '';
+    position: absolute;
+    width: 3%;
+    height: 3px;
+    bottom: 0;
+    left: 4%;
+    top: 53px;
+    right: 0;
+    margin: 0 auto;
+    background: #fad843 !important;
+   }
+
+   .card-title {
+    font-size: 16px;
+    text-align: center;
+    width: 100%;
+    border-bottom: none;
+    color: #000;
+    text-transform: none;
+    font-family: sans-serif;
+    margin: 15px 0px 20px;
+    padding: 0px 0px 10px;
+}
+.img-zoom-in img 
+{
+transition:all .2s ease-in-out;
+-webkit-transition:all .2s ease-in-out;
+-moz-transition:all .2s ease-in-out;
+-ms-transition:all .2s ease-in-out;
+-o-transition:all .2s ease-in-out;
+}
+
+.img-zoom-in:hover img 
+{
+transform:scale(1.1);
+-webkit-transform:scale(1.1);
+-moz-transform:scale(1.1);
+-ms-transform:scale(1.1);
+-o-transform:scale(1.1)
+}
+.jerry{
+    background: #1f1f1f;
+    color: #666666;
+    padding: 50px 0px !important;
+}
+.spice{
+    color: #fff;
+    font-size: 48px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-bottom: 20px;
+}
+div.white-bg{
+    background:#ffffff !important;
+    padding: 48px 24px !important;
+}
+.php{
+    text-align: center;
+    color: #c39d63;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mei{
+    text-align: center;
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.iam{
+    text-align: center;
+}
+.pad{
+    padding: 0px !important;
+}
+.grid-item {
+    width: 100%;
+  }
+  
+  .grid-item
+  {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .grid-item img {
+    display: block;
+    max-width: 100%;
+  }
+  
+  .grid-item:hover {
+    background: #d62182;
+  }
+  
+  .grid-item img:hover {
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+    /* For IE8 and earlier */
+  }
+  
